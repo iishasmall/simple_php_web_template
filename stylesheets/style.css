@@ -1,0 +1,193 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,400,500,700);
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+html {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+q, blockquote {
+  quotes: none;
+}
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+a img {
+  border: none;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* Template Colors*/
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  font-size: 12px;
+  font-family: "Roboto", sans-serif;
+  color: #000;
+  outline: none;
+}
+
+body, html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background: #fff;
+  text-align: center;
+  margin: 10px auto;
+}
+
+/* Navigation */
+header {
+  width: 100%;
+  height: 50px;
+  margin: 10px auto;
+  background: #265557;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  box-shadow: 0px 5px 10px -2px #666;
+}
+
+header #navigation {
+  text-transform: uppercase;
+  padding-top: 15px;
+}
+
+header #navigation a {
+  color: #fff;
+  padding-right: 10px;
+}
+
+header #navigation a:hover {
+  color: #000;
+}
+
+/* Headers */
+h1, h2, h3, h4, h5 {
+  font-family: 'Roboto',san-serif;
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 25px;
+  text-align: left;
+  padding-left: 10px;
+  padding-bottom: 30px;
+  padding-top: 20px;
+}
+
+h2 {
+  font-size: 20px;
+  text-align: left;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  padding-top: 20px;
+}
+
+/* Body Text */
+p {
+  font-family: 'Roboto',san-serif;
+  font-weight: 400;
+  text-align: left;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+}
+
+ul {
+  font-family: 'Roboto',san-serif;
+  text-align: left;
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+
+ul li {
+  padding-bottom: 10px;
+}
+
+#content {
+  font-family: 'Roboto', sans-serif;
+  min-height: 700px;
+  margin: 0 auto 10px auto;
+}
+
+/* Footer */
+footer {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+  width: 100%;
+  height: 50px;
+  margin: 10px auto;
+  color: #000;
+  border-top: solid 1px #333;
+}
+
+#leftfoot {
+  float: left;
+  position: relative;
+  padding-top: 10px;
+  left: 5px;
+}
+
+/* Media Queries */
+/* iPhone 6 landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+  /* STYLES GO HERE */
+}
+/* iPhone 6 portrait */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+  /* STYLES GO HERE */
+}
+/* iPad in Landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  /* STYLES GO HERE */
+}
+/* iPad in Portrait*/
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  /* STYLES GO HERE */
+}

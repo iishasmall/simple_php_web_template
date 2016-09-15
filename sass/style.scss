@@ -1,0 +1,182 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,400,500,700);
+
+/* Template Colors*/
+ $background-color:#fff;
+ $nav-color:#265557;
+ $link-color:#fff;
+ $hover-color:#000;
+ $text-color:#000;
+ $border-color:#333;
+ 
+* {
+    margin:0;
+    padding:0;
+    border:none;
+    font-size:12px;
+    font-family:"Roboto", sans-serif;
+    color:$text-color;
+    outline:none;
+}
+
+ 
+body, html {
+
+    width:100%;
+    height:100%;
+}
+ 
+body {
+    background:$background-color;
+    text-align:center;
+    margin:10px auto;
+}
+ /* Navigation */
+header {
+    width:100%;
+    height:50px;
+    margin:10px auto;
+    background:$nav-color;
+    font-family:'Roboto', sans-serif;
+    font-weight:700;
+    box-shadow:0px 5px 10px -2px #666;
+}
+
+header #navigation {
+    text-transform:uppercase;
+    padding-top: 15px;
+}
+
+header #navigation a{
+    color:$link-color;
+    padding-right:10px;
+}
+
+header #navigation a:hover{
+    color:$hover-color;
+}
+
+/* Headers */
+h1,h2,h3,h4,h5{
+    font-family:'Roboto',san-serif;
+    font-weight:700;
+}
+
+h1{
+    font-size:25px;
+    text-align:left;
+    padding-left:10px;
+    padding-bottom:30px;
+    padding-top:20px;
+}
+
+h2{
+    font-size:20px;
+    text-align:left;
+    padding-left:10px;
+    padding-bottom:10px;
+    padding-top:20px;
+}
+
+ /* Body Text */
+p{
+     font-family:'Roboto',san-serif;
+     font-weight:400;
+     text-align:left;
+     padding-left:10px;
+     padding-bottom:10px;
+     padding-right:10px;
+
+}
+
+ul{
+    font-family:'Roboto',san-serif;
+    text-align:left;
+    padding-left:10px;
+    padding-bottom:10px;
+}
+
+ul li {
+   padding-bottom:10px; 
+}
+ 
+#content {
+    font-family: 'Roboto', sans-serif;
+    min-height:700px;
+    margin:0 auto 10px auto;
+    
+}
+ 
+ /* Footer */
+ 
+footer {
+    font-family: 'Roboto', sans-serif;
+    font-weight:400;
+    font-size:10px;
+    width:100%;
+    height:50px;
+    margin:10px auto;
+    color:$text-color;
+    border-top: solid 1px $border-color;
+}
+ 
+#leftfoot {
+    float:left;
+    position:relative;
+    padding-top:10px;
+    left:5px;
+}
+ 
+
+
+/* Media Queries */
+
+/* iPhone 6 landscape */
+@media only screen and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (orientation: landscape)
+  and (-webkit-min-device-pixel-ratio: 2)
+{
+
+    /* STYLES GO HERE */
+
+ }
+
+/* iPhone 6 portrait */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (orientation: portrait)
+  and (-webkit-min-device-pixel-ratio: 2)
+{
+    /* STYLES GO HERE */
+
+ }
+
+/* iPad in Landscape */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) { 
+
+    /* STYLES GO HERE */
+
+}
+
+
+/* iPad in Portrait*/
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+
+    /* STYLES GO HERE */ 
+
+ }
